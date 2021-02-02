@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>CONTACT</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div id="container">
+    <a href="index.html">Retour</a>
+
+    <h1 id="Contact">Me contacter</h1>
+
+            <form method="post" action="mailto:hugo.butez@my-digital-school.org" onsubmit="return message()" name="message">
+
+                <div>
+                    <label>Mr
+                        <input type="radio" checked="checked" name="gender">
+                    </label>
+
+                    <label>Ms
+                        <input type="radio" name="gender">
+                    </label>
+                </div>
+
+                <div>
+                    <select name="country">
+                        <option>FR</option>
+                        <option>UK</option>
+                        <option>BE</option>
+                    </select> 
+                </div>
+
+                <div>
+                    <div>
+                        <input type="text" placeholder="Ton blaze" name="prenom" autofocus required>
+                    </div>
+                    
+                    <div>
+                        <input type="email" placeholder="Votre mail" name="email"><br>
+                        <input type="tel" placeholder="Votre numéro de téléphone" name="phone">  
+                    </div>
+
+                    <div>
+                        <textarea rows="8" placeholder="Votre message"></textarea>
+                    </div>
+
+                    <div>
+                        <button type="submit">Envoyer</button>
+                    </div>
+                </div>
+
+            </form>
+            </div>
+            </body>
+            </html>
